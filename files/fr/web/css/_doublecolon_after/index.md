@@ -15,7 +15,7 @@ En CSS, **`::after`** crée un [pseudo-élément](/fr/docs/Web/CSS/Pseudo-elemen
 
 ```css
 /* Ajoute une flèche après les liens */
-a:after {
+a::after {
   content: "→";
 }
 ```
